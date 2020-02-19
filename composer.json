@@ -1,6 +1,7 @@
 {
   "name": "municipio/municipio-boilerplate-standard",
   "description": "Boilerplate for a standard setup of Wordpress with Municipio",
+  "license": "MIT",
   "authors": [
     {
       "name": "Whitespace",
