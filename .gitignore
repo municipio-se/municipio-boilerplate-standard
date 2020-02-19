@@ -10,3 +10,11 @@ node_modules
 /wp-content/themes/municipio
 # /wp-content/themes/*
 # !/wp-content/themes/
+
+# Wordpress config
+/config/database.php
+/config/salts.php
+/config/cache.php
+/config/developer.php
+/config/multisite.php
+/config/plugins.php
