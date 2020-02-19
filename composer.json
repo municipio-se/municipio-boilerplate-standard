@@ -28,7 +28,10 @@
   },
   "scripts": {
       "post-create-project-cmd": [
-          "yarn install"
+          "yarn install",
+          "git init",
+          "git add -A",
+          "git commit -m'🎉 Create project using municipio/municipio-boilerplate-standard'"
       ]
   }
 }
