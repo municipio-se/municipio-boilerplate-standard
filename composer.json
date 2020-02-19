@@ -24,5 +24,10 @@
   },
   "extra": {
     "wordpress-install-dir": "wp"
+  },
+  "scripts": {
+      "post-create-project-cmd": [
+          "yarn install"
+      ]
   }
 }
