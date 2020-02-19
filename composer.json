@@ -1,37 +1,37 @@
 {
-  "name": "municipio/municipio-boilerplate-standard",
-  "description": "Boilerplate for a standard setup of Wordpress with Municipio",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Whitespace Dev",
-      "email": "code@whitespace.se"
+    "name": "municipio/municipio-boilerplate-standard",
+    "description": "Boilerplate for a standard setup of Wordpress with Municipio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Whitespace Dev",
+            "email": "code@whitespace.se"
+        }
+    ],
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "config": {
+        "sort-packages": true,
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "johnpbloch/wordpress": ">=4.9",
+        "municipio/municipio-bundle-standard": "dev-master"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "yarn install",
+            "git init",
+            "git add -A",
+            "git commit -m'🎉 Create project using municipio/municipio-boilerplate-standard'"
+        ]
     }
-  ],
-  "type": "project",
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    }
-  ],
-  "config": {
-    "sort-packages": true,
-    "vendor-dir": "vendor"
-  },
-  "require": {
-    "johnpbloch/wordpress": ">=4.9",
-    "municipio/municipio-bundle-standard": "dev-master"
-  },
-  "extra": {
-    "wordpress-install-dir": "wp"
-  },
-  "scripts": {
-      "post-create-project-cmd": [
-          "yarn install",
-          "git init",
-          "git add -A",
-          "git commit -m'🎉 Create project using municipio/municipio-boilerplate-standard'"
-      ]
-  }
 }
