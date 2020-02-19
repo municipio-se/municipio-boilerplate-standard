@@ -1,0 +1,12 @@
+/vendor
+node_modules
+
+/wp
+
+# Wordpress plugins
+/wp-content/plugins/*
+
+# Wordpress themes
+/wp-content/themes/municipio
+# /wp-content/themes/*
+# !/wp-content/themes/

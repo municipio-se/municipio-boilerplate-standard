@@ -1,0 +1,28 @@
+{
+  "name": "municipio/municipio-boilerplate-standard",
+  "description": "Boilerplate for a standard setup of Wordpress with Municipio",
+  "authors": [
+    {
+      "name": "Whitespace",
+      "homepage": "https://www.whitespace.se/"
+    }
+  ],
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "config": {
+    "sort-packages": true,
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "johnpbloch/wordpress": ">=4.9",
+    "municipio/municipio-bundle-standard": "dev-master"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}
