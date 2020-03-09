@@ -20,7 +20,7 @@
         "vendor-dir": "vendor"
     },
     "require": {
-        "johnpbloch/wordpress": ">=4.9",
+        "roots/wordpress": ">=5.0",
         "municipio/municipio-bundle-standard": "dev-master"
     },
     "extra": {
