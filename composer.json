@@ -13,6 +13,18 @@
         {
             "type": "composer",
             "url": "https://wpackagist.org"
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "advanced-custom-fields/advanced-custom-fields-pro",
+            "version": "5.8.3",
+            "type": "wordpress-muplugin",
+            "dist": {
+              "type": "zip",
+              "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+            }
+          }
         }
     ],
     "config": {
@@ -21,7 +33,8 @@
     },
     "require": {
         "roots/wordpress": ">=5.0",
-        "municipio/municipio-bundle-standard": "dev-master"
+        "ffraenz/private-composer-installer": "^4.0",
+        "advanced-custom-fields/advanced-custom-fields-pro": "5.8.3",
     },
     "extra": {
         "wordpress-install-dir": "wp"

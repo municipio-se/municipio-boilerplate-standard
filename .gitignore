@@ -1,5 +1,6 @@
 # Wordpress plugins
 /wp-content/plugins/*
+/wp-content/mu-plugins/*
 
 # Wordpress themes
 /wp-content/themes/municipio
