@@ -32,9 +32,10 @@
         "vendor-dir": "vendor"
     },
     "require": {
-        "roots/wordpress": ">=5.0",
+        "roots/wordpress": "^4.9",
         "ffraenz/private-composer-installer": "^4.0",
         "advanced-custom-fields/advanced-custom-fields-pro": "5.8.3",
+        "municipio/municipio-bundle-standard": "1.0.0"
     },
     "extra": {
         "wordpress-install-dir": "wp"
