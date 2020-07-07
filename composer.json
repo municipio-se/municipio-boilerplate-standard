@@ -34,7 +34,7 @@
     "require": {
         "roots/wordpress": "^5.0.0",
         "ffraenz/private-composer-installer": "^4.0",
-        "municipio/municipio-bundle-standard": "2.0.0"
+        "municipio/municipio-bundle-standard": "^3.0"
     },
     "extra": {
         "wordpress-install-dir": "wp"
