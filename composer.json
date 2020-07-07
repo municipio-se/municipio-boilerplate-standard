@@ -18,8 +18,8 @@
           "type": "package",
           "package": {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
-            "version": "5.8.3",
-            "type": "wordpress-muplugin",
+            "version": "5.8.12",
+            "type": "wordpress-plugin",
             "dist": {
               "type": "zip",
               "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
