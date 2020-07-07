@@ -18,3 +18,8 @@ htmlWhitespaceSensitivity: ignore
 # PHP
 braceStyle: 1tbs
 trailingCommaPHP: php7.2
+
+overrides:
+  - files: composer.json
+    options:
+      tabWidth: 4

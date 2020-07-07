@@ -1,5 +1,4 @@
 # Package files
-composer.json
 composer.lock
 package-lock.json
 
