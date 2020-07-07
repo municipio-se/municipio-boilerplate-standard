@@ -14,3 +14,15 @@ Boilerplate for a standard setup of Wordpress with Municipio
 4. Create your empty database.
 5. Run `valet link`.
 6. Run `valet open` and then the Wordpress install wizard.
+
+### Install and activate ACF Pro
+
+1. Create a .env file and add your ACF Pro key.
+2. Install ACF Pro:
+   ```bash
+   composer require "advanced-custom-fields/advanced-custom-fields-pro":"*"
+   ```
+3. Activate the ACF Pro plugin:
+   ```bash
+   wp plugin activate advanced-custom-fields-pro
+   ```
