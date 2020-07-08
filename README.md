@@ -26,3 +26,12 @@ Boilerplate for a standard setup of Wordpress with Municipio
    ```bash
    wp plugin activate advanced-custom-fields-pro
    ```
+
+## Format code using Prettier
+
+1. Run `yarn install` to install Prettier.
+2. Run `yarn format` to format all applicable files.
+3. Install a sutiable Prettier plugin for you aditor to format files
+   automatically on save.
+4. Also install the Editorconfig for your editor to format files not supported
+   by Prettier.
