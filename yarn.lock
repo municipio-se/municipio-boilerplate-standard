@@ -2,14 +2,14 @@
 # yarn lockfile v1
 
 
-"@prettier/plugin-php@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@prettier/plugin-php/-/plugin-php-0.12.0.tgz#d70037c8a7fb46ed47de8bee47d73c2e03cec769"
-  integrity sha512-XoP2qX/Es1d6QWwxPRJm+KBS90g/iUs9zT7mbo2H5IdDf7JoWuxGPsmpFuCkRJIFlROuyWJFOBHvDC7z3ne2pw==
+"@prettier/plugin-php@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@prettier/plugin-php/-/plugin-php-0.15.0.tgz#2c6abe3e2fc774efac7588a417970420eed90647"
+  integrity sha512-OnzCmDTDdWLkm2nsvtiWKip1ePoy+KucY1h9zHDVXIFWBrd+OZATeZZgC7JU7gjly96g86hW1ZHpbF9ip9KHfg==
   dependencies:
     linguist-languages "^7.5.1"
     mem "^6.0.1"
-    php-parser glayzzle/php-parser#prettier
+    php-parser "3.0.2"
 
 linguist-languages@^7.5.1:
   version "7.10.0"
@@ -41,11 +41,12 @@ p-defer@^1.0.0:
   resolved "https://registry.yarnpkg.com/p-defer/-/p-defer-1.0.0.tgz#9f6eb182f6c9aa8cd743004a7d4f96b196b0fb0c"
   integrity sha1-n26xgvbJqozXQwBKfU+WsZaw+ww=
 
-"php-parser@github:glayzzle/php-parser#prettier":
-  version "3.0.0-prerelease.9"
-  resolved "https://codeload.github.com/glayzzle/php-parser/tar.gz/3279b7ee9bd78b914b5b840edc749eee0fabbfd8"
+php-parser@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/php-parser/-/php-parser-3.0.2.tgz#a86dbbc110e57378cba71ab4cd9b0d18f3872ac3"
+  integrity sha512-a7y1+odEGsceLDLpu7oNyspZ0pK8FMWJOoim4/yd82AtnEZNLdCLZ67arnOQZ9K0lHJiSp4/7lVUpGELVxE14w==
 
-prettier@^1.19.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+prettier@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
+  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
