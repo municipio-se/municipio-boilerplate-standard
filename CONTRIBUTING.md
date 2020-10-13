@@ -18,8 +18,7 @@ incompatible version of this package. The _minor_ version number is increased
 when backwards-compatible features are added. The _patch_ version is increased
 only when making backwards-compatible bugfixes and security updates.
 
-When making a new release, don’t forget to also update the version number in the
-package.json file and update CHANGELOG.md
+When making a new release, don’t forget to also update CHANGELOG.md
 
 ## Code formatting
 
