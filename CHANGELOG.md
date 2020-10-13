@@ -1,3 +1,8 @@
+## 3.0.0 (October 13, 2020)
+
+- Add reCAPTCHA example config
+- Upgrade Prettier
+
 ## 3.0.0-rc2 (July 8, 2020)
 
 - Add yarn.lock file
